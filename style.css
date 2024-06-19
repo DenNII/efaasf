@@ -1,0 +1,61 @@
+body {
+    padding: 20px 30px;
+    font-family: Arial, sans-serif;
+    background-color: #ff5100;
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cards {
+    margin-top: 20px;
+    flex-wrap: wrap;
+    display: flex;
+    width: 90%;
+    
+}
+
+.card {
+    font-size: 16px;
+    background-color: #ededed;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(255, 0, 0);
+}
+
+p {
+    margin: 5px 0;
+}
+
+form {
+    z-index: 3;
+    width: 420px;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+button,
+input[type="submit"] {
+     background-color: #e02d2d;
+     
+}
+
+button,
+input {
+    width: 400px;
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 15px;
+    border: none;
+    z-index: 3;
+    border-radius: 10px;
+}
